@@ -77,16 +77,7 @@ Output directories must be absent or empty. Pretrained weights are downloaded au
 
 ## Test Results
 
-All metrics are percentages. ✓ indicates ImageNet pretraining; ✗ indicates random initialization. Bold indicates the highest value, and underlining indicates the second-highest distinct value in each metric column.
-
-| Model | Pretrained | Selected Epoch | Accuracy | F1-score | Precision | Recall | Specificity |
-|---|:---:|---:|---:|---:|---:|---:|---:|
-| ResNet18 | ✓ | 5 | <ins>91.03</ins> | <ins>93.27</ins> | <ins>87.78</ins> | **99.49** | <ins>76.92</ins> |
-| ResNet50 | ✓ | 5 | **93.11** | **94.71** | **91.02** | 98.72 | **83.76** |
-| ResNet101 | ✓ | 10 | 87.34 | 90.76 | 83.44 | **99.49** | 67.09 |
-| ResNet18 | ✗ | 18 | 88.14 | 91.25 | 84.65 | <ins>98.97</ins> | 70.09 |
-| ResNet50 | ✗ | 11 | 84.62 | 88.79 | 81.55 | 97.44 | 63.25 |
-| ResNet101 | ✗ | 17 | 87.02 | 90.30 | 84.72 | 96.67 | 70.94 |
+![Model Comparison](figures/model_comparison_results.png)
 
 PNEUMONIA is the positive class.
 

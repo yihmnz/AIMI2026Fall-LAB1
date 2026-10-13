@@ -1,9 +1,0 @@
-__pycache__/
-.ipynb_checkpoints/
-.venv/
-chest_xray/
-outputs*/
-comparison_figures/
-gradcam_results*/
-inference_results/
-*.pt

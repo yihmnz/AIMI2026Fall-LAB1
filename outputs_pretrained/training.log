@@ -1,0 +1,58 @@
+2026-10-01 14:45:12,294 | WARNING | Validation has only 16 images; metrics may fluctuate.
+2026-10-01 14:45:12,295 | INFO | Optional: --val-source train-split (report this split explicitly).
+2026-10-01 14:45:12,296 | INFO | Train class counts: {'NORMAL': 1341, 'PNEUMONIA': 3875}
+2026-10-01 14:45:12,296 | INFO | Split sizes train=5216 val=16 test=624
+2026-10-01 14:45:12,296 | INFO | Validation source: provided; checkpoint selection: max F1, then min loss
+2026-10-01 14:45:12,297 | INFO | Validation class counts: {'NORMAL': 8, 'PNEUMONIA': 8}
+2026-10-01 14:45:12,407 | INFO | Device: cuda
+2026-10-01 14:45:12,412 | INFO | Starting resnet18; pretrained=True
+2026-10-01 14:46:06,776 | INFO | resnet18 saved best.pt at epoch 1 (val F1=0.875000, loss=0.158981)
+2026-10-01 14:46:06,778 | INFO | resnet18 epoch 01/20 | train loss=0.1130 acc=0.9592 F1=0.9721 | val loss=0.1590 acc=0.8750 F1=0.8750 | lr=0.0001
+2026-10-01 14:47:07,049 | INFO | resnet18 epoch 02/20 | train loss=0.0540 acc=0.9801 F1=0.9865 | val loss=0.7466 acc=0.6875 F1=0.7619 | lr=9.93844e-05
+2026-10-01 14:48:08,580 | INFO | resnet18 saved best.pt at epoch 3 (val F1=1.000000, loss=0.097693)
+2026-10-01 14:48:08,581 | INFO | resnet18 epoch 03/20 | train loss=0.0452 acc=0.9850 F1=0.9899 | val loss=0.0977 acc=1.0000 F1=1.0000 | lr=9.75528e-05
+2026-10-01 14:49:01,311 | INFO | resnet18 epoch 04/20 | train loss=0.0302 acc=0.9887 F1=0.9924 | val loss=0.2206 acc=0.9375 F1=0.9412 | lr=9.45503e-05
+2026-10-01 14:50:02,037 | INFO | resnet18 saved best.pt at epoch 5 (val F1=1.000000, loss=0.022104)
+2026-10-01 14:50:02,037 | INFO | resnet18 epoch 05/20 | train loss=0.0234 acc=0.9910 F1=0.9939 | val loss=0.0221 acc=1.0000 F1=1.0000 | lr=9.04508e-05
+2026-10-01 14:51:02,252 | INFO | resnet18 epoch 06/20 | train loss=0.0114 acc=0.9962 F1=0.9974 | val loss=0.0243 acc=1.0000 F1=1.0000 | lr=8.53553e-05
+2026-10-01 14:52:01,834 | INFO | resnet18 epoch 07/20 | train loss=0.0113 acc=0.9965 F1=0.9977 | val loss=0.0776 acc=1.0000 F1=1.0000 | lr=7.93893e-05
+2026-10-01 14:53:01,752 | INFO | resnet18 epoch 08/20 | train loss=0.0088 acc=0.9967 F1=0.9978 | val loss=0.0671 acc=1.0000 F1=1.0000 | lr=7.26995e-05
+2026-10-01 14:53:58,183 | INFO | resnet18 epoch 09/20 | train loss=0.0095 acc=0.9967 F1=0.9978 | val loss=0.1905 acc=1.0000 F1=1.0000 | lr=6.54508e-05
+2026-10-01 14:54:58,235 | INFO | resnet18 epoch 10/20 | train loss=0.0166 acc=0.9937 F1=0.9957 | val loss=0.5564 acc=0.9375 F1=0.9412 | lr=5.78217e-05
+2026-10-01 14:55:54,287 | INFO | resnet18 epoch 11/20 | train loss=0.0052 acc=0.9990 F1=0.9994 | val loss=0.1670 acc=0.9375 F1=0.9412 | lr=5e-05
+2026-10-01 14:56:51,158 | INFO | resnet18 epoch 12/20 | train loss=0.0023 acc=0.9996 F1=0.9997 | val loss=0.1974 acc=0.9375 F1=0.9412 | lr=4.21783e-05
+2026-10-01 14:57:46,564 | INFO | resnet18 epoch 13/20 | train loss=0.0030 acc=0.9992 F1=0.9995 | val loss=0.0760 acc=1.0000 F1=1.0000 | lr=3.45492e-05
+2026-10-01 14:58:41,361 | INFO | resnet18 epoch 14/20 | train loss=0.0020 acc=0.9996 F1=0.9997 | val loss=0.1165 acc=1.0000 F1=1.0000 | lr=2.73005e-05
+2026-10-01 14:59:36,757 | INFO | resnet18 epoch 15/20 | train loss=0.0017 acc=0.9996 F1=0.9997 | val loss=0.2144 acc=0.9375 F1=0.9412 | lr=2.06107e-05
+2026-10-01 15:00:32,135 | INFO | resnet18 epoch 16/20 | train loss=0.0012 acc=0.9998 F1=0.9999 | val loss=0.1730 acc=0.9375 F1=0.9412 | lr=1.46447e-05
+2026-10-01 15:01:27,609 | INFO | resnet18 epoch 17/20 | train loss=0.0012 acc=0.9998 F1=0.9999 | val loss=0.1381 acc=0.9375 F1=0.9412 | lr=9.54915e-06
+2026-10-01 15:02:25,863 | INFO | resnet18 epoch 18/20 | train loss=0.0015 acc=0.9994 F1=0.9996 | val loss=0.1262 acc=0.9375 F1=0.9412 | lr=5.44967e-06
+2026-10-01 15:03:26,831 | INFO | resnet18 epoch 19/20 | train loss=0.0017 acc=0.9998 F1=0.9999 | val loss=0.1667 acc=0.9375 F1=0.9412 | lr=2.44717e-06
+2026-10-01 15:04:22,865 | INFO | resnet18 epoch 20/20 | train loss=0.0018 acc=0.9996 F1=0.9997 | val loss=0.1057 acc=1.0000 F1=1.0000 | lr=6.15583e-07
+2026-10-01 15:04:29,369 | INFO | FINAL TEST: {"accuracy": 0.9102564102564102, "f1": 0.9326923076923077, "precision": 0.8778280542986425, "recall": 0.9948717948717949, "specificity": 0.7692307692307693, "confusion_matrix": [[180, 54], [2, 388]], "model": "resnet18", "best_epoch": 5}
+2026-10-01 15:04:29,377 | INFO | Starting resnet50; pretrained=True
+2026-10-01 15:05:39,373 | INFO | resnet50 saved best.pt at epoch 1 (val F1=1.000000, loss=0.184770)
+2026-10-01 15:05:39,373 | INFO | resnet50 epoch 01/20 | train loss=0.1171 acc=0.9561 F1=0.9700 | val loss=0.1848 acc=1.0000 F1=1.0000 | lr=0.0001
+2026-10-01 15:06:49,664 | INFO | resnet50 saved best.pt at epoch 2 (val F1=1.000000, loss=0.093066)
+2026-10-01 15:06:49,665 | INFO | resnet50 epoch 02/20 | train loss=0.0615 acc=0.9797 F1=0.9862 | val loss=0.0931 acc=1.0000 F1=1.0000 | lr=9.93844e-05
+2026-10-01 15:07:56,631 | INFO | resnet50 epoch 03/20 | train loss=0.0454 acc=0.9831 F1=0.9886 | val loss=1.6614 acc=0.6875 F1=0.7619 | lr=9.75528e-05
+2026-10-01 15:09:04,122 | INFO | resnet50 epoch 04/20 | train loss=0.0311 acc=0.9891 F1=0.9926 | val loss=0.3501 acc=0.9375 F1=0.9412 | lr=9.45503e-05
+2026-10-01 15:10:15,190 | INFO | resnet50 saved best.pt at epoch 5 (val F1=1.000000, loss=0.005547)
+2026-10-01 15:10:15,190 | INFO | resnet50 epoch 05/20 | train loss=0.0260 acc=0.9904 F1=0.9935 | val loss=0.0055 acc=1.0000 F1=1.0000 | lr=9.04508e-05
+2026-10-01 15:11:22,159 | INFO | resnet50 epoch 06/20 | train loss=0.0204 acc=0.9931 F1=0.9953 | val loss=0.0210 acc=1.0000 F1=1.0000 | lr=8.53553e-05
+2026-10-01 15:12:29,053 | INFO | resnet50 epoch 07/20 | train loss=0.0136 acc=0.9944 F1=0.9962 | val loss=0.1160 acc=1.0000 F1=1.0000 | lr=7.93893e-05
+2026-10-01 15:13:36,270 | INFO | resnet50 epoch 08/20 | train loss=0.0054 acc=0.9979 F1=0.9986 | val loss=0.0836 acc=1.0000 F1=1.0000 | lr=7.26995e-05
+2026-10-01 15:14:41,603 | INFO | resnet50 epoch 09/20 | train loss=0.0094 acc=0.9977 F1=0.9985 | val loss=0.1475 acc=1.0000 F1=1.0000 | lr=6.54508e-05
+2026-10-01 15:15:45,350 | INFO | resnet50 epoch 10/20 | train loss=0.0087 acc=0.9967 F1=0.9978 | val loss=0.1654 acc=1.0000 F1=1.0000 | lr=5.78217e-05
+2026-10-01 15:16:51,271 | INFO | resnet50 epoch 11/20 | train loss=0.0039 acc=0.9988 F1=0.9992 | val loss=0.0074 acc=1.0000 F1=1.0000 | lr=5e-05
+2026-10-01 15:17:59,472 | INFO | resnet50 epoch 12/20 | train loss=0.0048 acc=0.9981 F1=0.9987 | val loss=0.1564 acc=1.0000 F1=1.0000 | lr=4.21783e-05
+2026-10-01 15:19:06,692 | INFO | resnet50 epoch 13/20 | train loss=0.0021 acc=0.9992 F1=0.9995 | val loss=0.0374 acc=1.0000 F1=1.0000 | lr=3.45492e-05
+2026-10-01 15:20:11,060 | INFO | resnet50 epoch 14/20 | train loss=0.0013 acc=0.9996 F1=0.9997 | val loss=0.0359 acc=1.0000 F1=1.0000 | lr=2.73005e-05
+2026-10-01 15:21:12,100 | INFO | resnet50 epoch 15/20 | train loss=0.0008 acc=0.9998 F1=0.9999 | val loss=0.0634 acc=1.0000 F1=1.0000 | lr=2.06107e-05
+2026-10-01 15:22:16,366 | INFO | resnet50 epoch 16/20 | train loss=0.0008 acc=0.9998 F1=0.9999 | val loss=0.0199 acc=1.0000 F1=1.0000 | lr=1.46447e-05
+2026-10-01 15:23:24,793 | INFO | resnet50 epoch 17/20 | train loss=0.0005 acc=0.9998 F1=0.9999 | val loss=0.0269 acc=1.0000 F1=1.0000 | lr=9.54915e-06
+2026-10-01 15:24:34,690 | INFO | resnet50 epoch 18/20 | train loss=0.0006 acc=1.0000 F1=1.0000 | val loss=0.0143 acc=1.0000 F1=1.0000 | lr=5.44967e-06
+2026-10-01 15:25:42,673 | INFO | resnet50 epoch 19/20 | train loss=0.0005 acc=0.9998 F1=0.9999 | val loss=0.0313 acc=1.0000 F1=1.0000 | lr=2.44717e-06
+2026-10-01 15:26:50,558 | INFO | resnet50 epoch 20/20 | train loss=0.0004 acc=1.0000 F1=1.0000 | val loss=0.0226 acc=1.0000 F1=1.0000 | lr=6.15583e-07
+2026-10-01 15:26:57,845 | INFO | FINAL TEST: {"accuracy": 0.9310897435897436, "f1": 0.947109471094711, "precision": 0.9101654846335697, "recall": 0.9871794871794872, "specificity": 0.8376068376068376, "confusion_matrix": [[196, 38], [5, 385]], "model": "resnet50", "best_epoch": 5}
+2026-10-01 15:26:58,105 | INFO | Saved results to I:\NYCUCS\AIMI\lab1\outputs_pretrained

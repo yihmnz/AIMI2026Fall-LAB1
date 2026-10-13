@@ -1,0 +1,25 @@
+{
+  "data_root": "./chest_xray",
+  "models": [
+    "resnet18",
+    "resnet50"
+  ],
+  "epochs": 20,
+  "batch_size": 32,
+  "lr": 0.0001,
+  "weight_decay": 0.0001,
+  "image_size": 224,
+  "workers": 0,
+  "seed": 42,
+  "output": "outputs_pretrained",
+  "no_pretrained": false,
+  "unweighted_loss": false,
+  "val_source": "provided",
+  "val_fraction": 0.15,
+  "track_test": false,
+  "no_progress": false,
+  "device": "cuda",
+  "torch": "2.14.1+cu132",
+  "torchvision": "0.29.1+cu132",
+  "python": "3.11.16"
+}
